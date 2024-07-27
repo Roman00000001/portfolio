@@ -1,0 +1,26 @@
+/* logo-ticker.module.css */
+.flex {
+  display: flex;
+}
+
+.gap-64 {
+  gap: 64px;
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
